@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8"
+              lang="en"/>
+        <link rel="stylesheet"
+              type="text/css"
+              href="default.css"/>
+	<style>
+	    h2 {
+		margin-bottom: 3px;
+	    }
+	    h3 {
+		margin-top: 3px;
+	    }
+	</style>
+        <title>Jack Hong | Code Bytes</title>
+    </head>
+    
+    <body>
+        
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+	    <li><a href="about_me.html">About Me</a></li>
+            <li><a href="education.html">Education</a></li>
+	    <li><a href="projects.html">Projects</a></li>
+            <li><a href="code_bytes.html" class="currentPage">Code Bytes</a></li>
+        </ul>
+    </nav>
+    <br clear="all"/>
+        
+        <div class="pageContent">
+
+        <h2>Lightbulbs</h2>
+        <h3>Turn on all the lightbulbs.</h3>
+	<script type="text/javascript" src="scripts/lightbulbs.js"></script>
+        <div class="lightbulbs">
+	        <img src="Images/lightbulbOff.png"
+		     alt="lightbulb"
+		     id="lightbulb0"
+		     class="off"
+		     width="9%"
+		     onClick="clickLight(0);"/>
+	    	<img src="Images/lightbulbOff.png"
+		     alt="lightbulb"
+		     id="lightbulb1"
+		     class="off"
+		     width="9%"
+		     onClick="clickLight(1);"/>
+	    	<img src="Images/lightbulbOff.png"
+		     alt="lightbulb"
+		     id="lightbulb2"
+		     class="off"
+		     width="9%"
+		     onClick="clickLight(2);"/>
+		<img src="Images/lightbulbOff.png"
+		     alt="lightbulb"
+		     id="lightbulb3"
+		     class="off"
+		     width="9%"
+		     onClick="clickLight(3);"/>
+	    	<img src="Images/lightbulbOff.png"
+		     alt="lightbulb"
+		     id="lightbulb4"
+		     class="off"
+		     width="9%"
+		     onClick="clickLight(4);"/>
+		<img src="Images/lightbulbOff.png"
+		     alt="lightbulb"
+		     id="lightbulb5"
+		     class="off"
+		     width="9%"
+		     onClick="clickLight(5);"/>
+	        <img src="Images/lightbulbOff.png"
+	             alt="lightbulb"
+	             id="lightbulb6"
+		     class="off"
+	             width="9%"
+		     onClick="clickLight(6);"/>
+	        <img src="Images/lightbulbOff.png"
+	             alt="lightbulb"
+	    	     id="lightbulb7"
+		     class="off"
+	             width="9%"
+	             onClick="clickLight(7);"/>
+	        <img src="Images/lightbulbOff.png"
+	             alt="lightbulb"
+	             id="lightbulb8"
+		     class="off"
+	             width="9%"
+	             onClick="clickLight(8);"/>
+	        <img src="Images/lightbulbOff.png"
+	             alt="lightbulb"
+	             id="lightbulb9"
+		     class="off"
+	             width="9%"
+	             onClick="clickLight(9);"/>
+        </div>
+	<br clear="all"/>
+    
+	<p id="stepsTaken">Steps Taken: 0</p>
+	<button type="reset" onclick="resetLightbulbs();">Reset</button>
+	<button type="button" onclick="solveLightbulbs();">Solve</button>
+        
+        <hr>
+        
+        <h2>Riddles</h2>
+	<h3>Can you solve these riddles?</h3>
+	<script type="text/javascript" src="scripts/riddles.js"></script>
+        <img src="Images/big_red_button.png"
+             alt="Big Red Button"
+             class="riddle"
+             onClick="clickRedButton();"/>
+        <img src="Images/riddle1.png"
+             alt="riddle 1"
+             class="riddle"
+             onClick="clickRiddle1();"/>
+        <img src="Images/riddle2.png"
+             alt="riddle 2"
+             class="riddle"
+             onClick="clickRiddle2();"/>
+        
+        </div>
+        
+        <footer>
+            <img src="Images/homer1.gif"
+		 alt="homer"
+		 id="homer"
+		 onMouseOver="document.getElementById('homer').src='Images/homer2.gif'"
+		 onMouseOut="document.getElementById('homer').src='Images/homer1.gif'"/>
+        </footer>
+    </body>
+</html>
